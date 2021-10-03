@@ -35,16 +35,16 @@ body {
 .navbar-brand {
     color: #fff;
     width: 245px;
-    /* border: 2px solid green; */
+    /* border: 2px solid green;  */
     font-family: 'Allerta Stencil', sans-serif;
     margin-right: 37px;
     font-size: 28px;
 }
-.gymLogo{
+.gymLogo2{
     margin: 0px 0px 0px 0px;
     width: 31%;
     /* border: 2px solid green; */
-  ;
+
 }
 
 .navbar-red:hover .wrapper {
@@ -64,10 +64,10 @@ body {
     z-index: 10
 }
 
-.headerText{
+/* .headerText{
     color: #ffc400;
-    /* margin-left: 40%; */
-}
+     margin-left: 40%; 
+} */
 @media screen {
     
 }
