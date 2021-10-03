@@ -3,7 +3,11 @@
 body {
     background-color: #eee
 }
-
+/* .header {
+    position:fixed;
+    width: 100%;
+    margin-bottom: 10%;
+} */
 .navbar-nav>li>a {
     text-transform: uppercase;
     font-size: 16px;
@@ -37,7 +41,8 @@ body {
     height: 100%;
     background-color: #ffc400;
     clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
-    transition: 1s all
+    transition: 1s all;
+    
 }
 
 .navbar-brand {
@@ -66,6 +71,7 @@ body {
 .navbar-red {
     background-color: rgb(34, 34, 34);
     color: #fff
+    
 }
 
 .all-show {
