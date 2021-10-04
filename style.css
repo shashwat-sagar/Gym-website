@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #eee
+    background-color: #4d4d4d;
 }
 /* .header {
     position:fixed;
@@ -116,21 +116,52 @@ color: #ffc400;
     height: 100%;
     background-color: transparent;
     opacity: 40%;
+    
     }
-
-#vidText{
-    position: relative;
-    z-index: 2;
-    
-    
-}
 
 
 #comment{
-    /* border: 3px solid rgb(89, 0, 255); */
+    background-color: #4d4d4d;
+    margin-bottom: 20px;
 }
 
+#comment .paraunderVid{
+text-align: center;
+
+margin-bottom: 20px;
+}
+
+#button{
+   
+}
+
+#caro{
+    /* border: 2px solid green; */
+    
+    margin-bottom: 20px;
+}
+
+#row1{
+    /* border: 2px solid red; */
+    border: none;
+}
+
+#row1 .card{
+    /* border: 2px solid blue; */
+    border-radius: 7px;
+    background-color: #1d1d1d;
+    color: #ffffff;
+}
 /* Main Section Ends */
+
+
+
+
+
+
+
+
+
 
 
 /* Footer Starts */
