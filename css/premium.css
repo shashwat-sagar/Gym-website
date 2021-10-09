@@ -33,21 +33,26 @@ body {
 .form-input {
     position: relative;
     margin-bottom: 10px;
-    margin-top: 10px
+    margin-top: 10px;
+    color: #ffc400;
+    
 }
 
 .form-input i {
     position: absolute;
     font-size: 18px;
     top: 15px;
+    color: #fff;
+    
     left: 10px
 }
 
 .form-control {
     height: 50px;
-    background-color: #1c1e21;
+    background-color: #444444;
     text-indent: 24px;
-    font-size: 15px
+    font-size: 16px;
+    color: #ffc400;
 }
 
 .form-control:focus {
@@ -59,7 +64,8 @@ body {
 
 .form-check-label {
     margin-top: 2px;
-    font-size: 14px
+    font-size: 14px;
+    
 }
 
 #buttonSub{
