@@ -174,4 +174,9 @@
 font-style: italic;
 text-decoration: none;
 }
+
+#developer{
+    text-decoration: none;
+    color: #ffc400;
+}
 /* Footer Ends */
