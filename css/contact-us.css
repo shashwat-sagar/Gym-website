@@ -1,0 +1,36 @@
+.mapouter {
+    margin: 10px 255px 0 255px;
+    position:relative;
+    text-align:right;
+    /* border:2px solid green; */
+    height:800px;
+    width:800px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    /* border:2px solid red; */
+    background:none!important;
+    height:800px;
+    width:800px;
+}
+
+@media only screen and (max-width: 720px) {
+    .mapouter {
+        margin: 10px 0 10px 11px;
+        position:relative;
+        text-align:right;
+        /* border:2px solid green; */
+        height:500px;
+        width:370px;
+    }
+    
+
+    .gmap_canvas {
+        overflow:hidden;
+        /* border:2px solid red; */
+        background:none!important;
+        height:500px;
+        width:370px;
+    }
+}
