@@ -170,6 +170,11 @@
     
 }
 
+.footerContactInfo{
+    text-decoration: none;
+    color: #fff;
+}
+
 #me{
 font-style: italic;
 text-decoration: none;
