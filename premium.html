@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>About Us</title>
+    <title>Premium</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     
@@ -33,7 +32,7 @@
                     <!-- <li class="nav-item"> <a class="nav-link" href="./services.html"><font color="#ffc400" size="4px">S</font>ervices</a> </li> -->
                     <li class="nav-item"> <a class="nav-link" href="./gallery.html"><font color="#ffc400" size="4px">G</font>allery</a> </li>
                     <!-- <li class="nav-item"> <a class="nav-link" href="./contact-us.html"><font color="#ffc400" size="4px">C</font>ontact</a> </li> -->
-                    <li class="nav-item"> <a class="nav-link" href="./signin.html"><font color="#ffc400" size="4px">L</font>ogout <font color="#ffc400" size="4px"> <i class="fa fa-sign-out" aria-hidden="true"></i></font></a></li>
+                    <li class="nav-item"><button onclick="logout()" class="btn btn-danger">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></button></li>
                 </ul>
                 <!-- <div class="d-flex flex-column sim"><small class="text-primary">view your quote</small> </div> -->
             </div>
@@ -42,7 +41,7 @@
 </div>
 <!-- Header Ends . -->
 <div class="bodyContent">
-   <h4><font color="#fff">Dear Sir/Ma'am, This Page is under Development!</font></h4> <br><br><br><br>
+  <font color="#ffc400"><span id="user">Hello</span></font>
 </div>
 
 
@@ -63,31 +62,62 @@
                         </ul> -->
                     </div>
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
+                        <h4><font color="#ffc400">O</font>ur <font color="#ffc400">S</font>ervices</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Fitness</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Personal Trainer</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Dietrician</a></li>
-                          
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Fitness</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i>
+                                <a href="#">Personal Trainer</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Dietrician</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 footer-contact">
-                        <h4>Contact Us</h4>
-                        <p> Muskan Tower <br> Sultanpur, Uttar Pradesh<br> India <br><br> <strong>Phone:</strong> +91 5589 55488 55<br> <strong>Email:</strong> info@example.com<br> </p>
+                        <h4><font color="#ffc400">C</font>ontact <font color="#ffc400">U</font>s</h4>
+                        <p>
+                            <font color="#ffc400">Muskan Tower</font> <br />
+                            Gabhariya, Chauraha<br>Sultanpur, Uttar Pradesh<br />
+                            India <br /><br />
+                            <strong>Phone:</strong> <a class="footerContactInfo" href="tel:+91 9651597063"><font color="#ffc400">+91</font> 965-<font color="#ffc400">159</font>-7063<br /></a>
+                            <strong>Email:</strong> <a class="footerContactInfo" href="mailto:athlete_club@gmail.com">athlete_club<font color="#ffc400">@gmail.com</font><br /></a>
+                        </p>
                     </div>
                     <div class="col-lg-3 col-md-6 footer-info">
-                        <h3>About Athlete Club</h3>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-                        <div class="social-links mt-3"> <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> </div>
+                        <h3><font color="#ffc400">A</font>bout <font color="#ffc400">A</font>thlete Club</h3>
+                        <p>
+                            Wanna transform yourself?<br>
+                            JOIN US<br>we have the best trainers certified by goldsgym
+                            3200sqft area for weight training and cardio
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://www.instagram.com/athlete_club99/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://youtu.be/4vI-IS3GgbY" class="youtube"><i class="bx bxl-youtube"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="copyright"> © Copyright <strong><span>Athlete Club</span></strong>. All Rights Reserved </div>
-            <div class="credits" id="me">Made with ❤️ by <a href="https://badass1901-my-site.netlify.app/">Shashwat Sagar</a> </div>
+            <div class="copyright">
+                <font color="#ffc400">©</font> Copyright <strong><span><font color="#ffc400">Athlete</font> Club</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits" id="me">
+                Made with ❤️ by
+                <a href="https://shashwatsagar.netlify.app/" id="developer">Shashwat Sagar</a>
+            </div>
         </div>
     </footer>
     <!-- Footer Ends -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/premium.js"></script>
 </body>
 </html>
